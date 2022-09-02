@@ -8,6 +8,19 @@ body {
     background-color: #efe9ce;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    background-image: url();
+}
+
+.bodytext {
+    margin: 50px 100px;
+    font-family: 'Quicksand', cursive;
+    font-size: large;
+}
+
 .page-container {
     margin-bottom: 70px; 
 }
@@ -50,9 +63,10 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* * {
-    box-sizing: border-box;
-  } */
+nav ul li.active {
+    background-color: #efe9ce;
+    text-decoration: underline;
+}
 
 .container {
     display: flex;
@@ -94,7 +108,7 @@ nav ul li a {
     border-radius: 5px;
     background-color: burlywood;
     font-family: 'Quicksand', sans-serif;
-    font-size: 30xp;
+    font-size: large;
 }
 
 .text::before {
@@ -116,8 +130,8 @@ nav ul li a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: blueviolet;
-    color: bisque;
+    background-color: burlywood;
+    color: brown;
     text-align: center;
     padding: 24px;
 }
