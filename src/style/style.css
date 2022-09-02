@@ -1,3 +1,144 @@
-h1 {
-    color: green;
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Quicksand', sans-serif; */
+
+body {
+    margin: 0px !important;
+    background-color: #efe9ce;
+}
+
+.page-container {
+    margin-bottom: 70px; 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: baseline; */
+    padding: 16px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0px;
+}
+
+nav ul li {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+nav ul li.active {
+    background-color: black;
+}
+
+nav ul li a {
+    color: brown;
+    text-decoration: none;
+}
+
+/* * {
+    box-sizing: border-box;
+  } */
+
+.container {
+    display: flex;
+}
+
+.container a {
+    
+    text-align: center;
+    padding: 150px 0;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+    font-weight: weight;
+    color: brown;
+    flex: 50%;
+}
+
+.container .cafes {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color: aliceblue;
+    margin: 10px 5px 10px 30px;
+    background-image: url("/images/cafes.jpg");
+}
+
+.container .source {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color: aliceblue;
+    background-image: url("/images/sources.jpg");
+    margin: 10px 30px 10px 5px;
+}
+
+.text {
+    margin: 70px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: burlywood;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30xp;
+}
+
+.text::before {
+    display: inline-block;
+    content: open-quote;
+    color: brown;
+    font-size: 32px;
+}
+
+.text::after {
+    display: inline-block;
+    content: close-quote;
+    color: brown;
+    font-size: 32px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: blueviolet;
+    color: bisque;
+    text-align: center;
+    padding: 24px;
+}
+
+
+/* Phones */
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container a {
+        flex: 100%;
+    }
+
+    .container .cafes {
+        margin: 10px;
+    }
+
+    .container .source {
+        margin: 10px;
+    }
 }
