@@ -1,0 +1,18 @@
+@import "style.css";
+
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    background-image: url();
+    font-size: 48px;
+    margin-top: 15px;
+}
+
+.bodytext {
+    margin: 50px 100px;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}

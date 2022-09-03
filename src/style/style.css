@@ -1,32 +1,12 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive; */
 
-/* font-family: 'Dancing Script', cursive;
-font-family: 'Fira Sans', sans-serif;
-font-family: 'Quicksand', sans-serif; */
 
 body {
     margin: 0px !important;
     background-color: #efe9ce;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-    background-image: url();
-}
-
-h3 {
-    font-size: 24px;
-    padding: 12px;
-    margin: 6px;
-    border-top: 5px solid #ddd;
-    border-bottom: 5px solid #ddd;
-}
-
-.bodytext {
-    margin: 50px 100px;
-    font-family: 'Quicksand', cursive;
-    font-size: large;
 }
 
 .page-container {
@@ -37,17 +17,30 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: baseline; */
-    padding: 16px;
+    padding: 0px 16px 32px 16px;
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
 }
 
 nav .logo {
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    padding: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    transform: scale(0.99);
+    opacity: 0.9;
 }
 
 nav ul {
+    align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -57,13 +50,12 @@ nav ul {
 }
 
 nav ul li {
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     padding: 8px 20px;
 }
 
 nav ul li.active {
-    background-color: black;
+    text-decoration: underline;
 }
 
 nav ul li a {
@@ -71,8 +63,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li.active {
-    background-color: #efe9ce;
+nav ul li a:hover {
     text-decoration: underline;
 }
 
@@ -81,16 +72,19 @@ nav ul li.active {
 }
 
 .container a {
-    
     text-align: center;
     padding: 150px 0;
     border-radius: 50px;
     text-decoration: none;
-    font-family: 'Fira Sans', sans-serif;
     font-size: large;
     font-weight: weight;
     color: brown;
     flex: 50%;
+}
+
+.container a:hover {
+    opacity: 0.9;
+    transform: scale(0.99);
 }
 
 .container .cafes {
@@ -115,8 +109,8 @@ nav ul li.active {
     padding: 20px;
     border-radius: 5px;
     background-color: burlywood;
-    font-family: 'Quicksand', sans-serif;
-    font-size: large;
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
 }
 
 .text::before {
@@ -133,64 +127,15 @@ nav ul li.active {
     font-size: 32px;
 }
 
-.equipments {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.equipment {
-    flex-basis: 325px;
-    box-sizing: border-box;
-    padding: 20px;
-    margin: 20px;
-    border: 2px solid #d3d3d3;
-    border-radius: 10px;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.equipment h4 {
-    font-size: 20px;
-    padding: 12px;
-    margin: 6px;
-    border-top: 5px solid #ddd;
-    border-bottom: 5px solid #ddd;
-}
-
-.equipment .price {
-    font-size: larger;
-    font-weight: bold;
-}
-
-.equipment p {
-    padding: 0px 12px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.equipment img:hover {
-    transform: scale(0.95);
-    opacity: 0.9;
-}
-
-.equipment button {
-    background-color: #4caf50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    width: 100%;
-    font-size: 12px;
-}
-
 .footer {
-    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: burlywood;
     color: brown;
+    background-color: burlywood;
     text-align: center;
     padding: 24px;
+    font-family: 'Acme', sans-serif;
 }
 
 
@@ -211,5 +156,11 @@ nav ul li.active {
 
     .container .source {
         margin: 10px;
+    }
+
+    .text {
+        font-size: 24px;
+        margin: 15px;
+        border-radius: 10px;
     }
 }
