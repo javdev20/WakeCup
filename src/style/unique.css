@@ -1,0 +1,79 @@
+@import url("style.css");
+
+.banner {
+    background-image: url("/images/unique.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.headline {
+    font-size: 32px;
+    padding: 12px;
+    margin: 20px 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.blends {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.blend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 325px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+}
+
+.blend h4 {
+    font-size: 20px;
+    padding: 12px;
+    margin: 6px;
+    border-top: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
+    text-align: center;
+}
+
+.blend p {
+    padding: 0px 12px;
+    font-family: 'Quicksand', sans-serif;    
+}
+
+.blend .price {
+    font-size: large;
+    font-weight: bold;
+    padding: 0 12px;
+}
+
+.blend img {
+    border-radius: 5px;
+}
+
+.blend img:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+}
+
+.blend button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 12px;
+    margin: 10px;
+    bottom: 10px;
+}
+
+.footer {
+    position: fixed;
+}
