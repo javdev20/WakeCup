@@ -1,0 +1,73 @@
+@import url("style.css");
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin: 48px;
+    font-size: 44px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 48px 24px;
+    flex-wrap: wrap;
+}
+
+.containers form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow:0 0 40px -10px #000;
+    width: 380px;
+    height: 550px;
+    padding: 28px 30px;
+    font-family: 'Acme', sans-serif;
+    color: #5a5a5a;
+    font-size: large;
+    margin-bottom: 78px;
+}
+
+p {
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    font-family: 'Pacifico', cursive;
+    color: #5a5a5a;
+    font-size: medium;
+    outline: none;
+    background: none;
+    border: 0;
+    border-bottom:2px solid #bebed2;
+    box-sizing:border-box;
+}
+
+input:focus{
+    border-bottom:2px solid #78788c
+}
+
+button {
+    float: right;
+    padding: 8px 16px;
+    margin: 32px 0 0;
+    font-family: 'Acme', sans-serif;
+    font-size: medium;
+    border:2px solid #78788c;
+    background: none;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s;
+}
+
+button:hover{
+    background:#78788c;
+    color:#fff
+}
+
+.footer {
+    position: fixed;
+}
