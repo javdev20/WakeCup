@@ -1,7 +1,7 @@
 @import url("style.css");
 
 .banner {
-    background-image: url("/images/unique.jpg");
+    background-image: url("../images/unique.jpg");
     width: 100%;
     height: 300px;
     background-size: cover;

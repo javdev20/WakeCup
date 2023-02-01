@@ -92,14 +92,14 @@ nav ul li a:hover {
     font-size: 100px;
     color: aliceblue;
     margin: 10px 5px 10px 30px;
-    background-image: url("/images/cafes.jpg");
+    background-image: url("../images/cafes.jpg");
 }
 
 .container .source {
     font-family: 'Dancing Script', cursive;
     font-size: 100px;
     color: aliceblue;
-    background-image: url("/images/sources.jpg");
+    background-image: url("../images/sources.jpg");
     margin: 10px 30px 10px 5px;
 }
 
